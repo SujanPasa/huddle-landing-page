@@ -140,7 +140,7 @@ footer {
 
 .footer-flex { 
     display: flex;
-    margin: 2rem;
+    margin: 2rem 0;
     align-items: flex-start;   
      
 }
