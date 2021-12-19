@@ -60,10 +60,15 @@ header{
     border-radius: 0.5rem;
     box-shadow: 5px 5px 10px -5px hsl(208, 11%, 55%) ;
     background-color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Open Sans';
     padding: 0 1.5rem;
     
+}
+
+.try-me-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
 }
 
 .mockups{
@@ -76,6 +81,14 @@ header{
     font-weight: 600;
 }
 
+.pink-btn:hover{
+    background-color: #ffff;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-style: inset;
+    box-shadow: 3px 3px 5px gray;;
+
+}
 .btn-div{
     /* max-width: 60%;
     margin:auto auto; */
@@ -189,11 +202,20 @@ li{
 }
 
 .copyright{ 
+    margin-top: 2rem;
     font-size: 0.75em;
     text-align: center;
 }
 
-@media only screen and (max-width: 400px){
+.fab{ 
+    margin: auto 2rem auto 0;
+    font-size: 1.25;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
 
     body{
         min-width: 375px;
