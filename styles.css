@@ -363,4 +363,8 @@ li{
         padding: 1rem 3rem;
         border-radius: 2rem;
     }
+
+    .image-first{
+        flex-direction: row-reverse;
+    }
 }
